@@ -41,8 +41,6 @@ public class CaesarCipher {
         Scanner sc = new Scanner(System.in);
         boolean again = true;
 
-        System.out.println("===== Caesar Cipher Program (Java) =====");
-
         while (again) {
 
             System.out.print("\nEnter plaintext: ");
@@ -75,4 +73,5 @@ public class CaesarCipher {
 
         sc.close();
     }
+
 }
